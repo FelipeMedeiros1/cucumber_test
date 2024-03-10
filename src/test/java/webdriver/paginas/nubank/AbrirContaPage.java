@@ -1,14 +1,14 @@
-package config.paginas.nubank;
+package webdriver.paginas.nubank;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import config.base.BasePage;
+import webdriver.base.BasePage;
 
 public class AbrirContaPage extends BasePage {
     //region
 
     @FindBy(id = "label-cpf")
-    private WebElement cpfLabel;
+    WebElement cpfLabel;
     @FindBy(id = "field-cpf")
     private WebElement cpf;
     @FindBy(id = "test")
@@ -66,7 +66,6 @@ public class AbrirContaPage extends BasePage {
 
     public void politicaDePrivacidade(Boolean valor) {
         selecionaChek(politicaDePrivacidade, valor);
-        clicar(enviar);
     }
 
     public void mensagem(String msgEsperada) {
@@ -74,6 +73,7 @@ public class AbrirContaPage extends BasePage {
     }
 
     public void mensagem() {
+        clicar(enviar);
         obterTituloDaPagina();
     }
 }

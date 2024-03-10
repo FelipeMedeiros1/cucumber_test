@@ -1,12 +1,13 @@
-package aceites.executaveis;
+package aceites.executor;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features",
-        glue = "aceites/etapas"
+        features = "src/test/java/funcionalidades",
+        glue = "aceites/etapas",
+        publish = true
 )
 public class CucumberTest {
 }

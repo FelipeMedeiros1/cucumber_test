@@ -1,4 +1,4 @@
-package config.fabrica.driver;
+package webdriver.fabrica.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -4,11 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beec298a-b89d-4bce-acb8-6e86008d30fb" name="Changes" comment="" />
+    <list default="true" id="beec298a-b89d-4bce-acb8-6e86008d30fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/drivers/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aceites/etapas/nubank/AbrirConta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aceites/etapas/nubank/AbrirContaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aceites/executor/CucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/funcionalidades/fludo_de_abertura_de_conta.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Assertivas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Botao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/CampoTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Espera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/GeradorDeRelatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/JS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Log4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/fabrica/driver/FabricaDeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/paginas/nubank/AbrirContaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,12 +65,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/felipem.medeiros/Documents/02-cursos/SELENIUM/cucumber_test/src/main/java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test\src\main\java" />
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test\src\test\java" />
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test\src\test" />
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test\src\test\java" />
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\SELENIUM\cucumber_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CucumberTest">
+    <configuration name="AbrirContaUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aceites.etapas.nubank.AbrirContaUtils" />
+      <module name="cucumber_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aceites.etapas.nubank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: fludo-de-abertura-de-conta (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/funcionalidades/fludo-de-abertura-de-conta.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: fludo-de-abertura-de-conta" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Preencher formulário de abertura de conta com sucesso (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/fludo-de-abertura-de-conta.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_test" />
+      <option name="NAME_FILTER" value="^Preencher formulário de abertura de conta com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Preencher formulário de abertura de conta com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Preencher formulário de abertura de conta com sucesso" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Preencher formulário de abertura de conta com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/funcionalidades/fludo-de-abertura-de-conta.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_test" />
+      <option name="NAME_FILTER" value="^Preencher formulário de abertura de conta com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Preencher formulário de abertura de conta com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Preencher formulário de abertura de conta com sucesso" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aceites.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="acceptance.executaveis" />
+      <option name="MAIN_CLASS_NAME" value="aceites.executor.CucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberTest" />
+        <item itemvalue="Application.AbrirContaUtils" />
+        <item itemvalue="Cucumber Java.Scenario: Preencher formulário de abertura de conta com sucesso" />
+        <item itemvalue="Cucumber Java.Feature: fludo-de-abertura-de-conta (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Preencher formulário de abertura de conta com sucesso (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +190,16 @@
       <updated>1709812644974</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/webdriver/fabrica/components/Assertivas.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

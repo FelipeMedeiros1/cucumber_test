@@ -1,13 +1,13 @@
-package config.base;
+package webdriver.base;
 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import config.fabrica.components.*;
+import webdriver.fabrica.componentes.*;
 
-import static config.fabrica.driver.FabricaDeDriver.getDriver;
+import static webdriver.fabrica.driver.FabricaDeDriver.getDriver;
 
 public abstract class BasePage {
     public BasePage() {
@@ -50,7 +50,7 @@ public abstract class BasePage {
     }
 
     protected void clicar(WebElement elemento) {
-        rolarParaBaixoAteEncontrar(elemento);
+        esperaElementoSerClicavel(elemento);
         new Botao().clicar(elemento);
     }
 
